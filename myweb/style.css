@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	text-align: center;
+}
+#profil{
+	background-color: lightgrey;
+	padding: 65px;
+}
+#profil img{
+	border-radius: 30%;
+	height: 350px;
+	position: relative;
+}
+#main{
+	width: 60%;
+	margin: auto;
+}
+#skills{
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	width: 30%;
+	border: 1px solid lightgrey;
+	overflow: hidden;
+	/*height: 300px;*/
+}
+.card img{
+	width: 100%;
+}
+input{
+	width: 100%;
+	margin-bottom: 8px;
+	height: 30px;
+	/*border-radius: 5px;*/
+	border: 1px solid black;
+}
+textarea{
+	width: 100%;
+	margin-top: 8px;
+	/*border-radius: 5px;*/
+}
+button{
+	background-color: green;
+	color: white;
+
+}
+footer img{
+	margin-right: 20px;
+}
